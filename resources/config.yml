@@ -1,0 +1,20 @@
+# basic config
+host:
+  port: 8080
+  name: localhost
+  protocol: http
+
+database:
+  type: mysql
+  host: localhost
+  port: 5432
+  username: root
+  password: 
+  database: node-backend
+  synchronize: true
+  logging: false
+
+# Remove this, sample extra config
+sample:
+  title: Payever new api
+  apiUrl: https://reqres.in
